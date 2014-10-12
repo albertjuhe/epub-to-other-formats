@@ -6,8 +6,8 @@ REM    V.1.0
 REM ***************************************************
 cls
 set Code=%1
-set origin=C:\Projectes_xsl\epub2html
-set Saxon_path=C:\Projectes_xsl\SaxonHE9-4-0-1J\saxon9he.jar
+set origin=..\epub2html
+set Saxon_path=..\SaxonHE9-4-0-1J\saxon9he.jar
 set tools=%origin%\tools
 set input_process=%origin%\input\
 set output_process=%origin%\output\
@@ -18,7 +18,7 @@ IF NOT EXIST %Saxon_path% GOTO ERROR_SAXON
 
 echo Opening document %Code%
 %tools%unzip.exe -d %tmp% %input_process%%Code%
-echo Transforming document to docbook
+echo Transforming document to HTML5
 
 java -jar %Saxon_path% %tmp%/META-INF/container.xml -o %output_process%/output.html
 
