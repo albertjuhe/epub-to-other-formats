@@ -18,9 +18,10 @@
 
     <xsl:output method="xhtml" encoding="UTF-8"  indent="yes"/>
 
-    <xsl:param name="code-epub" select="'pg2591'"/>
-    <xsl:param name="epub-path" select="'../../tmp/pg2591/'"/>
-    <xsl:param name="output-epub-path" select="'../../output/pg2591/'"/>
+    <xsl:param name="code-epub"/>
+    
+    <xsl:param name="epub-path" select="concat('../../tmp/',$code-epub,'/')"/>
+    <xsl:param name="output-epub-path" select="concat('../../output/',$code-epub,'/')"/>
 
     <xsl:template match="/">
         <xsl:apply-templates/>
@@ -62,10 +63,10 @@
         <xsl:for-each select="opf:spine/opf:itemref">
             <xsl:variable name="id-item" select="@idref"/>
             <xsl:variable name="file-name-html" select="ancestor::opf:package/opf:manifest/opf:item[@id=$id-item]/@href"/>
-            <xsl:variable name="path-filename-html" select="$epub-path,$global-path,$file-name-html"/>
+            <xsl:variable name="path-filename-html" select="concat($epub-path,$global-path,$file-name-html)"/>
             <xsl:value-of select="$path-filename-html"></xsl:value-of>
             <xsl:variable name="filename-result-epub" select="concat($output-epub-path,'chapter_',$id-item,'.html')"/>
-            <xsl:result-document href="../../output/pg2591/chapter_{$id-item}.html" doctype-system="html" method="xhtml"  xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all">
+            <xsl:result-document href="{$output-epub-path}/chapter_{$id-item}.html" doctype-system="html" method="xhtml"  xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all">
                 <xsl:variable name="epub-file" select="document($path-filename-html)"/>               
                 <html>
                     <head><meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />

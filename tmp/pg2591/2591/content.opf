@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<package xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="id">
+  <metadata>
+    <dc:rights>Public domain in the USA.</dc:rights>
+    <dc:identifier id="id" opf:scheme="URI">http://www.gutenberg.org/ebooks/2591</dc:identifier>
+    <dc:creator opf:file-as="Grimm, Jacob">Jacob Grimm</dc:creator>
+    <dc:creator opf:file-as="Grimm, Wilhelm">Wilhelm Grimm</dc:creator>
+    <dc:title>Grimm's Fairy Tales</dc:title>
+    <dc:language xsi:type="dcterms:RFC4646">en</dc:language>
+    <dc:subject>Fairy tales -- Germany</dc:subject>
+    <dc:date opf:event="publication">2001-04-01</dc:date>
+    <dc:date opf:event="conversion">2013-04-25T13:26:30.459063+00:00</dc:date>
+    <dc:source>http://www.gutenberg.org/files/2591/2591.txt</dc:source>
+  </metadata>
+  <manifest>
+    <item href="pgepub.css" id="item1" media-type="text/css"/>
+    <!--Chunk: size=79894 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-0.txt.html" id="id00000" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=82980 Split on p-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-1.txt.html" id="id00120" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=73598 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-2.txt.html" id="id00257" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=74694 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-3.txt.html" id="id00413" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=76058 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-4.txt.html" id="id00506" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=80323 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-5.txt.html" id="id00709" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=76897 Split on h2-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-6.txt.html" id="id00823" media-type="application/xhtml+xml"/>
+    <!--Chunk: size=66954-->
+    <item href="@public@vhost@g@gutenberg@html@files@2591@2591-7.txt.html" id="id00933" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id00000" linear="yes"/>
+    <itemref idref="id00120" linear="yes"/>
+    <itemref idref="id00257" linear="yes"/>
+    <itemref idref="id00413" linear="yes"/>
+    <itemref idref="id00506" linear="yes"/>
+    <itemref idref="id00709" linear="yes"/>
+    <itemref idref="id00823" linear="yes"/>
+    <itemref idref="id00933" linear="yes"/>
+  </spine>
+</package>

@@ -1,0 +1,3 @@
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+	<system systemId="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" uri="xhtml-math11-f.dtd"/>	
+</catalog>
