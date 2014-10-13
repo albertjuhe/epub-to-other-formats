@@ -25,6 +25,14 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="img"  mode="copy-all">
+        <xsl:copy>
+            <xsl:copy-of select="@*"/>
+            <xsl:attribute name="src" select="concat('img/',@src)"/>
+            <xsl:apply-templates mode="copy-all"/>
+        </xsl:copy>
+    </xsl:template>
+    
     <xsl:template match="h1 | h2 | h3 | h4 | h5 | h6"  mode="copy-all">
         <div class="row-fluid">
             <div class="span9">

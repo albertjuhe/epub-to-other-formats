@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE ncx PUBLIC '-//NISO//DTD ncx 2005-1//EN' 'http://www.daisy.org/z3986/2005/ncx-2005-1.dtd'>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="http://www.gutenberg.org/ebooks/76" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="EpubMaker 0.3.20 by Marcello Perathoner &lt;webmaster@gutenberg.org&gt;" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Adventures of Huckleberry Finn</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="np-1" playOrder="1">
+      <navLabel>
+        <text>HUCKLEBERRY FINN, By Mark Twain, Complete</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00000"/>
+    </navPoint>
+    <navPoint id="np-2" playOrder="2">
+      <navLabel>
+        <text>ADVENTURES OF HUCKLEBERRY FINN</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00001"/>
+      <navPoint id="np-3" playOrder="3">
+        <navLabel>
+          <text>(Tom Sawyer's Comrade)</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00002"/>
+      </navPoint>
+      <navPoint id="np-4" playOrder="4">
+        <navLabel>
+          <text>Complete</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00003"/>
+        <navPoint id="np-5" playOrder="5">
+          <navLabel>
+            <text>Format Choice</text>
+          </navLabel>
+          <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00004"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="np-6" playOrder="6">
+        <navLabel>
+          <text>CONTENTS.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00005"/>
+      </navPoint>
+      <navPoint id="np-7" playOrder="7">
+        <navLabel>
+          <text>ILLUSTRATIONS.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00006"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-8" playOrder="8">
+      <navLabel>
+        <text>HUCKLEBERRY FINN</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@76-h-0.htm.html#pgepubid00007"/>
+    </navPoint>
+    <navPoint id="np-9" playOrder="9">
+      <navLabel>
+        <text>HUCKLEBERRY FINN, By Mark Twain, Complete</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00000"/>
+    </navPoint>
+    <navPoint id="np-10" playOrder="10">
+      <navLabel>
+        <text>ADVENTURES OF HUCKLEBERRY FINN</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00001"/>
+      <navPoint id="np-11" playOrder="11">
+        <navLabel>
+          <text>(Tom Sawyer's Comrade)</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00002"/>
+      </navPoint>
+      <navPoint id="np-12" playOrder="12">
+        <navLabel>
+          <text>Complete</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00003"/>
+      </navPoint>
+      <navPoint id="np-13" playOrder="13">
+        <navLabel>
+          <text>CONTENTS.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00004"/>
+      </navPoint>
+      <navPoint id="np-14" playOrder="14">
+        <navLabel>
+          <text>ILLUSTRATIONS.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00005"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-15" playOrder="15">
+      <navLabel>
+        <text>HUCKLEBERRY FINN</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@76@76-h@files@relative-0.htm.html#pgepubid00006"/>
+    </navPoint>
+  </navMap>
+</ncx>

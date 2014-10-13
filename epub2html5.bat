@@ -23,7 +23,11 @@ md %output_process%
 %tools%unzip.exe -d %tmp%\%Code% %input_process%%Code%.epub
 echo Transforming document to %format_output%
 java -cp  %Saxon_path%;lib/resolver.jar -Dxml.catalog.files=dtds/catalog.xml net.sf.saxon.Transform  -r:org.apache.xml.resolver.tools.CatalogResolver -x:org.apache.xml.resolver.tools.ResolvingXMLReader  -y:org.apache.xml.resolver.tools.ResolvingXMLReader -xsl:%xsl%main.xsl -s:%tmp%/%Code%/META-INF/container.xml -o:%output_process%/output.log code-epub=%Code%
-
+mkdir %output_process%\img\ 
+cd %tmp%/%Code%/
+echo Copying images
+for /r %%x in (*.gif,*.jpeg,*.jpg,*.png) do copy %%x ..\.%output_process%\img\.
+cd ../..
 GOTO END
 
 :ERROR_FILE
