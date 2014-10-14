@@ -16,10 +16,13 @@ The samples for the conversion are books from the [Guttenber project](guttenberg
 
 To convert a epub file to HTML5 you have to call the file epub2html5 file as follow:
 
+"Adventures of Huckleberry Finn" epub:
+
 ```xml
 epub2html5 [epub_name] [output_format]
-epub2html5 pg2591 HTML5
+epub2html5 pg76 HTML5
 ```
+
 This command will convert the epub pg2591.epub to HTML5 format and generates the output in the output_process variable defined in the bat file.
 
 By default the system will search the [epub_name].epub in the input_process folder, defined in the .bat file.
