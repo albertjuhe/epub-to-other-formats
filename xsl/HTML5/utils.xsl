@@ -51,8 +51,10 @@
                                         <li>
                                             <xsl:if test="normalize-space($current-file)=@idref">
                                                 <xsl:attribute name="class" select="'active'"/>
-                                            </xsl:if>    
-                                            <a rel="tooltip" href="chapter_{@idref}.html" data-original-title="chapter_{@idref}.html">Chapter <xsl:value-of select="position()"/></a>
+                                            </xsl:if>
+                                            <xsl:variable name="idref" select="@idref"/>
+                                            <xsl:variable name="file-name-html" select="ancestor::opf:package/opf:manifest/opf:item[@id=$idref]/@href"/>
+                                            <a rel="tooltip" href="{$file-name-html}" data-original-title="chapter_{@idref}.html">Chapter <xsl:value-of select="position()"/></a>
                                         </li>
                                         </xsl:for-each>
                                     </ul>

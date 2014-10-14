@@ -66,7 +66,7 @@
             <xsl:variable name="path-filename-html" select="concat($epub-path,$global-path,$file-name-html)"/>
             <xsl:value-of select="$path-filename-html"></xsl:value-of>
             <xsl:variable name="filename-result-epub" select="concat($output-epub-path,'chapter_',$id-item,'.html')"/>
-            <xsl:result-document href="{$output-epub-path}/chapter_{$id-item}.html" doctype-system="html" method="xhtml"  xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all">
+            <xsl:result-document href="{$output-epub-path}/{$file-name-html}" doctype-system="html" method="xhtml"  xpath-default-namespace="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all">
                 <xsl:variable name="epub-file" select="document($path-filename-html)"/>               
                 <html>
                     <head><meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
