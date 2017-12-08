@@ -16,7 +16,7 @@
     <xsl:template match="p"  mode="copy-all">
         <div class="row-fluid">
             <div class="span9">
-                <div class="para" id="w26aab5b5b3">
+                <div class="para" id="{generate-id()}">
                         <xsl:copy-of select="@*"/>
                         <xsl:apply-templates mode="copy-all"/>
                 </div>
@@ -36,7 +36,7 @@
     <xsl:template match="h1 | h2 | h3 | h4 | h5 | h6"  mode="copy-all">
         <div class="row-fluid">
             <div class="span9">
-                <div class="para" id="w26aab5b5b3">
+                <div class="para" id="{generate-id()}">
                     <header>
                     <xsl:copy>
                      <xsl:copy-of select="@*"/>
